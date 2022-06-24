@@ -1,9 +1,13 @@
 body {
   margin: 0px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 * {
   box-sizing: border-box;
+}
+
+p {
+  font-family: "Smooch", cursive;
 }
