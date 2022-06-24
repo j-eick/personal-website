@@ -1,9 +1,20 @@
 html {
-  _font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-  margin: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container {
+  width: 50rem;
+  border: 0.2rem solid black;
+  margin: 50px 50px;
+  padding: 20px 20px;
+
   display: flex;
   flex-direction: column;
 }
