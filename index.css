@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-  max-width: 70rem;
+  _max-width: 70rem;
   min-width: 50rem;
   border: 0.2rem solid black;
   margin: 5rem 5rem;
@@ -40,24 +40,19 @@ p {
   background-color: rgb(51, 185, 237);
 
   border-radius: 25px;
-  padding: 40px 50px;
+  padding: 40px 10px;
 
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 43%;
   gap: 20px;
 }
 
 .social-cards-text {
   background-color: rgb(237, 181, 51);
 
-  margin: 0;
-  _padding: 20px 20px;
-
-  display: flex;
-  flo
-  justify-content: center;
-  align-items: center;
+  padding: 20px 20px;
 }
