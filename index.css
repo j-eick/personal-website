@@ -4,13 +4,6 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main-container {
-  _max-width: 70rem;
   min-width: 50rem;
   border: 0.2rem solid black;
   margin: 5rem 5rem;
