@@ -17,8 +17,40 @@ body {
   box-sizing: border-box;
 }
 
+header {
+}
+
+header > h1 {
+  padding-bottom: 30px;
+  font-family: "Smooch", cursive;
+  font-size: 4.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+header > img {
+  width: 100%;
+}
+
 p {
   font-family: "Smooch", cursive;
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "Smooch", cursive;
+  font-size: 2.5rem;
+
+  display: flex;
 }
 
 .social-cards-container {
@@ -33,7 +65,7 @@ p {
   background-color: rgb(51, 185, 237);
 
   border-radius: 25px;
-  padding: 40px 10px;
+  padding: 20px 10px;
 
   display: flex;
   justify-content: center;
