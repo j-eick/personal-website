@@ -73,7 +73,7 @@ a:active {
 }
 
 .social-cards-container {
-  background-color: pink;
+  _background-color: pink;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -84,7 +84,7 @@ a:active {
   background-color: rgb(51, 185, 237);
 
   border-radius: 25px;
-  padding: 20px 10px;
+  padding: 10px 10px;
 
   display: flex;
   justify-content: center;
