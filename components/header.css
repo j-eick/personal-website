@@ -1,0 +1,16 @@
+.header {
+  background-color: red;
+}
+
+.header > h1 {
+  padding-bottom: 30px;
+  font-family: "Smooch", cursive;
+  font-size: 4.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+header > img {
+  width: 100%;
+}

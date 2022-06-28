@@ -1,4 +1,5 @@
 html {
+  background-color: lightgrey;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -8,29 +9,10 @@ body {
   border: 0.2rem solid black;
   margin: 5rem 5rem;
   padding: 20px 20px;
+  background-color: ;
 
   display: flex;
   flex-direction: column;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.header {
-}
-
-.header > h1 {
-  padding-bottom: 30px;
-  font-family: "Smooch", cursive;
-  font-size: 4.5rem;
-
-  display: flex;
-  justify-content: center;
-}
-
-header > img {
-  width: 100%;
 }
 
 p {
@@ -39,7 +21,7 @@ p {
 }
 
 .nav-buttons {
-  list-style-type: none;
+  _list-style-type: none;
   margin: 0;
   padding: 20px 0px;
   font-family: "Smooch", cursive;
