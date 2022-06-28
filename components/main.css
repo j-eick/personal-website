@@ -5,11 +5,11 @@ html {
 }
 
 body {
+  _background-color: lightgrey;
   min-width: 50rem;
-  border: 0.2rem solid black;
-  margin: 5rem 5rem;
+  _border: 0.2rem solid black;
+  _margin: 5rem 5rem;
   padding: 20px 20px;
-  background-color: ;
 
   display: flex;
   flex-direction: column;
